@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ارتباط با سمیه موسویان، روانشناس کودک و بازی‌درمانگر، و درخواست مشاوره.">
+    <title>تماس با من | سمیه موسویان</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 18px;
+            margin: 30px 0 50px;
+        }
+        .contact-card {
+            background: var(--white);
+            border: 1px solid #e9e2d8;
+            border-radius: 10px;
+            padding: 22px;
+        }
+        .contact-card h3 { color: var(--green); margin-top: 0; }
+        .contact-card a {
+            color: var(--terracotta);
+            text-decoration: none;
+            overflow-wrap: anywhere;
+        }
+        .contact-form {
+            background: var(--white);
+            padding: 28px;
+            border-radius: 12px;
+            max-width: 760px;
+            margin: 30px auto 60px;
+        }
+        .contact-form label {
+            display: block;
+            margin: 15px 0 5px;
+            font-weight: bold;
+        }
+        .contact-form input,
+        .contact-form select,
+        .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #d8d2c8;
+            border-radius: 6px;
+            font: inherit;
+            background: #fff;
+        }
+        .privacy-note {
+            font-size: 13px;
+            color: #62645d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>سمیه موسویان <span> | روانشناس کودک</span></h1>
+        <nav>
+            <a href="index.html">خانه</a>
+            <a href="about.html">درباره من</a>
+            <a href="services.html">خدمات</a>
+            <a href="articles.html">مطالب آموزشی</a>
+            <a href="index.html#workshops">کارگاه‌ها</a>
+            <a href="contact.html">تماس</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <p class="eyebrow">در ارتباط باشیم</p>
+            <h2>برای شروع یک گفت‌وگو، اینجا هستم.</h2>
+            <p>
+                برای پرس‌وجو درباره خدمات، جلسات مشاوره یا کارگاه‌های کودک،
+                از راه‌های ارتباطی زیر استفاده کن.
+            </p>
+        </section>
+
+        <section>
+            <h2>راه‌های ارتباطی</h2>
+            <div class="contact-grid">
+                <article class="contact-card">
+                    <h3>واتساپ</h3>
+                    <p>برای پیام و هماهنگی اولیه</p>
+                    <a href="https://wa.me/989119184479" target="_blank" rel="noopener">ارسال پیام در واتساپ ←</a>
+                </article>
+
+                <article class="contact-card">
+                    <h3>تلگرام</h3>
+                    <p>ارتباط از طریق تلگرام</p>
+                    <a href="https://t.me/+989119184479" target="_blank" rel="noopener">باز کردن تلگرام ←</a>
+                </article>
+
+                <article class="contact-card">
+                    <h3>اینستاگرام</h3>
+                    <p>مطالب آموزشی و اطلاع از کارگاه‌ها</p>
+                    <a href="https://instagram.com/somaye_mosaviyan" target="_blank" rel="noopener">@somaye_mosaviyan ←</a>
+                </article>
+
+               
+<article class="contact-card">
+    <h3>بله</h3>
+    <p>برای ارتباط در پیام‌رسان بله</p>
+    <a href="https://ble.ir/somaye_mosaviyan"
+       target="_blank" rel="noopener">
+        پیام در بله ←
+    </a>
+</article>
+
+
+                
+<article class="contact-card">
+    <h3>روبیکا</h3>
+    <p>برای ارتباط در پیام‌رسان روبیکا</p>
+    <a href="https://rubika.ir/somayemosaviyan"
+       target="_blank" rel="noopener">
+        پیام در روبیکا ←
+    </a>
+</article>
+
+            </div>
+        </section>
+
+        <section>
+            
+<div class="contact-form">
+    <p class="eyebrow">درخواست مشاوره</p>
+    <h2>فرم درخواست تماس</h2>
+    <p>اطلاعات زیر رو وارد کن و پیام‌رسان موردنظرت رو انتخاب کن.</p>
+
+    <form id="contactForm">
+        <label for="parentName">نام والد</label>
+        <input id="parentName" name="parentName" type="text"
+               placeholder="نام و نام خانوادگی" required>
+
+        <label for="phone">شماره تماس</label>
+        <input id="phone" name="phone" type="tel"
+               placeholder="شماره تماس شما" required>
+
+        <label for="childAge">سن کودک</label>
+        <select id="childAge" name="childAge" required>
+            <option value="">انتخاب کنید</option>
+            <option>زیر ۳ سال</option>
+            <option>۳ تا ۵ سال</option>
+            <option>۶ تا ۸ سال</option>
+            <option>۹ تا ۱۲ سال</option>
+            <option>بالاتر از ۱۲ سال</option>
+        </select>
+
+        <label for="requestType">موضوع درخواست</label>
+        <select id="requestType" name="requestType" required>
+            <option value="">انتخاب کنید</option>
+            <option>درخواست مشاوره کودک</option>
+            <option>بازی‌درمانی</option>
+            <option>قصه‌درمانی</option>
+            <option>آموزش و همراهی والدین</option>
+            <option>پرس‌وجو درباره کارگاه‌ها</option>
+            <option>سایر موارد</option>
+        </select>
+
+        <label for="message">توضیح کوتاه (اختیاری)</label>
+        <textarea id="message" name="message" rows="3"
+                  placeholder="توضیح کلی درباره درخواستت"></textarea>
+
+        <p class="privacy-note">
+            لطفاً اطلاعات حساس یا جزئیات خصوصی کودک رو وارد نکن.
+            با انتخاب پیام‌رسان، متن درخواست آماده می‌شه؛
+            برای ارسال باید خودت پیام رو تأیید و ارسال کنی.
+        </p>
+
+        <button class="button" type="submit">آماده‌سازی پیام</button>
+    </form>
+
+    <div id="messageResult" hidden>
+        <h3>درخواستت آماده است</h3>
+        <p>متن زیر را کپی کن و در پیام‌رسان انتخابی بفرست.</p>
+<textarea id="preparedMessage" rows="8" readonly></textarea>
+<button class="button" type="button" id="copyMessage">کپی متن درخواست</button>
+<p id="copyStatus" class="privacy-note" aria-live="polite"></p>
+        
+<p>ابتدا متن درخواستت را کپی کن؛ سپس پیام‌رسان موردنظرت را باز کن و متن را در گفت‌وگو با من جای‌گذاری و ارسال کن.</p>
+
+<p>پس از کپی کردن متن، یکی از پیام‌رسان‌های زیر را باز کن:</p>
+
+        <div class="hero-buttons">
+            <a class="button" href="https://ble.ir/somaye_mosaviyan"
+               target="_blank" rel="noopener">ارسال از طریق بله</a>
+
+            <a class="button" href="https://rubika.ir/somayemosaviyan"
+               target="_blank" rel="noopener">ارسال از طریق روبیکا</a>
+        </div>
+
+        <p id="copyStatus" class="privacy-note" aria-live="polite"></p>
+    </div>
+</div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>سمیه موسویان | روانشناس کودک و بازی‌درمانگر</p>
+        <p>بازی، قصه و همراهی در مسیر رشد کودک</p>
+    </footer>
+
+
+<script>
+const form = document.getElementById('contactForm');
+const result = document.getElementById('messageResult');
+const preparedMessage = document.getElementById('preparedMessage');
+const copyButton = document.getElementById('copyMessage');
+const copyStatus = document.getElementById('copyStatus');
+
+form.addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    if (!form.reportValidity()) return;
+
+    const name = document.getElementById('parentName').value.trim();
+    const phone = document.getElementById('phone').value.trim();
+    const age = document.getElementById('childAge').value;
+    const topic = document.getElementById('requestType').value;
+    const details = document.getElementById('message').value.trim();
+
+    const message =
+`سلام، برای دریافت اطلاعات یا هماهنگی مشاوره پیام می‌دهم.
+
+نام والد: ${name}
+شماره تماس: ${phone}
+سن کودک: ${age}
+موضوع درخواست: ${topic}
+توضیح کوتاه: ${details || 'ذکر نشده'}
+
+لطفاً برای هماهنگی با من تماس بگیرید.`;
+
+    preparedMessage.value = message;
+    result.hidden = false;
+    copyStatus.textContent = '';
+
+    result.scrollIntoView({ behavior: 'smooth', block: 'start' });
+});
+
+copyButton.addEventListener('click', async function() {
+    try {
+        await navigator.clipboard.writeText(preparedMessage.value);
+        copyStatus.textContent =
+            'متن کپی شد؛ حالا آن را در پیام‌رسان جای‌گذاری کن.';
+    } catch (error) {
+        preparedMessage.focus();
+        preparedMessage.select();
+        copyStatus.textContent =
+            'متن انتخاب شد؛ برای کپی کردن Ctrl+C را بزن.';
+    }
+});
+</script>
+
+</body>
+
+</body>
+</html>
